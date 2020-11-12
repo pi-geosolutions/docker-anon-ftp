@@ -7,7 +7,7 @@ This image is meant for running something like a public read-only share. User ac
 View my included `docker-compose.yml` for a runtime configuration example or check the below one-liner for a quick launch!
 
 ```
-docker run -d -p 20-21:20-21 -p 65500-65515:65500-65515 -v /tmp:/var/ftp:ro metabrainz/docker-anon-ftp
+docker run -d -p 20-21:20-21 -p 65500-65515:65500-65515 -v /tmp:/var/ftp:ro pi-geosolutions/docker-anon-ftp
 ```
 
 #### Runtime Configuration Options
